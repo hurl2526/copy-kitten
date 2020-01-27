@@ -1,9 +1,15 @@
 .row {
-column-gap: 20px;
+column-gap: 1000px;
 }
-
-
-
+#row-1 {
+  margin: 20px 20px 20px 20px;
+}
+#row-2 {
+  margin: 20px 20px 20px 20px;
+}
+#row-3 {
+  margin: 20px 20px 20px 20px;
+}
 #cell-1 {
   border-top-style: none;
   border-right-style: solid;
@@ -16,20 +22,20 @@ column-gap: 20px;
   border-top-style: none;
   border-right-style: solid;
   border-bottom-style: solid;
-  border-left-style: none;
+  border-left-style: solid;
   border-color: black;
   padding: 5px;
 }
 #cell-3 {
   border-top-style: none;
-  border-right-style: solid;
+  border-right-style: none;
   border-bottom-style: solid;
-  border-left-style: none;
+  border-left-style: solid;
   border-color: black;
   padding: 5px;
 }
 #cell-4 {
-  border-top-style: none;
+  border-top-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
   border-left-style: none;
@@ -37,40 +43,40 @@ column-gap: 20px;
   padding: 5px;
 }
 #cell-5 {
-  border-top-style: none;
+  border-top-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
-  border-left-style: none;
+  border-left-style: solid;
   border-color: black;
   padding: 5px;
 }
 #cell-6 {
-  border-top-style: none;
-  border-right-style: solid;
+  border-top-style: solid;
+  border-right-style: none;
   border-bottom-style: solid;
-  border-left-style: none;
+  border-left-style: solid;
   border-color: black;
   padding: 5px;
 }
 #cell-7 {
-  border-top-style: none;
+  border-top-style: solid;
   border-right-style: solid;
-  border-bottom-style: solid;
+  border-bottom-style: none;
   border-left-style: none;
   border-color: black;
   padding: 5px;
 }#cell-8 {
-  border-top-style: none;
+  border-top-style: solid;
   border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: none;
+  border-bottom-style: none;
+  border-left-style: solid;
   border-color: black;
   padding: 5px;
 }#cell-9 {
-  border-top-style: none;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: none;
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: solid;
   border-color: black;
   padding: 5px;
 }
